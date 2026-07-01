@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-paper text-ink font-body;
+}
+
+.paper-card {
+  @apply bg-white border border-line rounded-sm;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03), 0 8px 24px -16px rgba(0, 0, 0, 0.25);
+}
+
+::selection {
+  background-color: #2b4eff;
+  color: #f7f4ec;
+}
